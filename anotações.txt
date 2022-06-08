@@ -1,0 +1,10 @@
+color.adobe.com
+paletton
+coloors
+colorZila extensão
+
+seletor *{} para configurações globais das css
+
+to create degradê(gradient)
+background-image: linear-gradiante or radial-gradient: (quantas cores quiser separdas por virgula,
+ recomendado 3 cores)
