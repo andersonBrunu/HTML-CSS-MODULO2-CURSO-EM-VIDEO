@@ -8,3 +8,37 @@ seletor *{} para configurações globais das css
 to create degradê(gradient)
 background-image: linear-gradiante or radial-gradient: (quantas cores quiser separdas por virgula,
  recomendado 3 cores)
+
+cores rgb rgba hls(matix saturaçao e luminosidade)
+
+css web safe font combinations - site para saber fonts padrões que ja existem no sistema
+ninja font - capturar fonts dos sites
+
+Medidas recomendas para se utilizar nas fontes em (em ou px;) 1em = 16px que normalmente é o tamanho natural das fontes
+
+peso da font negrita ou deixar mais leve (font-weigth)
+deixar em italico (font-style: italic)
+sublinhado (font-decaration: underline)
+
+simplificar as linha a cima:
+	font: font-style, font-weight, font-size,font-family;
+	exemplo: font: intalic bolder 3em 'work sans', sans-serif;
+
+serifada, sem serif monoespaçada display
+dafont.com, repositorio de fontes
+
+fonts externas
+
+crir a fonte com o @fonte-face{configs da font, font-family: nome da font vc escolher
+ src url(local da fonte) 
+font-weight:
+font-style
+}
+tipo otf format opentype
+tipo ttf format truetype
+
+SELETORES PERSONALIZADO CSS
+
+id(#) class(.)
+pseudo-class mais usados -> :hover, :empty, :active, :checked , :focus  relacionamos ao estado do objeto relacionado 
+pseudo -elemento mais usados -> ::after, ::before , ::first-letter, first-line

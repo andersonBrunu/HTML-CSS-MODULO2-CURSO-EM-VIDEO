@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relembrando</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Reforçando conhecimos até então adquiridos</h1>
+        <h2>Tiulo 1</h2>
+        <h3>**1° subtitulo de titulo 1</h3>
+        <h3>**2° subtitulo de titulo 1</h3>
+        <h2>Titulo 2</h2>
+        <h3>**1° subtitulo de titulo 2</h3>
+        <h3>**2° subtitulo de titulo 2</h3>
+        <h4>****1° subtitulo do 2° subtitulo do titulo 2</h4>
+        <h4>****2° subtitulo do 2° subtitulo do titulo 2</h4>
+        <h3>**3° subtitulo do titulo 2</h3>
+        <h2>Lista de jogos favoritos</h2>
+        <section>
+            <ol type="1" start="1">
+                <li>Playstation</li>
+                <ul type="circle">
+                    <li>Bomba Patch</li>
+                    <li>Def Jam NY</li>
+                    <li>Naruto 5</li>
+                    <li>The king of fight</li>
+                </ul>
+                <li>ZSNES</li>
+                <ul type="disc">
+                    <li>Donk kong</li>
+                    <li>Aladim</li>
+                    <li>Top Gear</li>
+                </ul>
+                <li>Polystation</li>
+                <ul type="square">
+                    <li>Super Mario</li>
+                    <li>Tetris</li>
+                    <li>Medal of honor</li>
+                </ul>
+            </ol>
+        </section>
+        <h2>Trabalhando com midias</h2>
+        <h3>Imagem</h3>
+        <p>primeira forma so com a tag &lt;img&gt;</p>
+        <section><img src="midias/bomba.png" alt=""></section>
+        <p>segunda forma utilixando a tag &lt;picture&gt; com as tag &lt;source&gt; e &lt;img&gt; dentro, para ter
+            imagens
+            flexiveis</p>
+        <section>
+            <picture>
+                <source media="(max-width: 750px)" srcset="midias/Bomba.png" type="image/png">
+                <source media="(max-width: 1000px )" srcset="midias/bomba-750.png" type="image/png">
+                <img src="midias/bomba-1000.png" alt="">
+            </picture>
+        </section>
+        <h2>Audio</h2>
+        <p>primeiro so com a tag &lt;audio&gt;</p>
+        <section>
+            <audio src="midias/funk_do_bomba_patch.mp3" preload="metadata" controls loop>
+                Caso não carregue o audio aqui fica uma mensagem explicando
+            </audio>
+        </section>
+        <p>
+            Agora tabem com a tag &lt;audio&gt; mas com tipos de audios diferentes no corpo da tag para caso o navegador
+            não
+            seja compativel com algum tipo do audio
+        </p>
+        <section>
+            <audio preload="metadata" controls>
+                <source src="midias/funk_do_bomba_patch.mp3" type="audio/mpeg">
+                <source src="midias/funk_do_bomba_patch.wav" type="audio/wav">
+                <source src="midias/funk_do_bomba_patch.ogg" type="audio/ogg">
+                <p>
+                    Caso não rode nenhum das opções aqui fica uma mensagem explicativa
+                </p>
+            </audio>
+        </section>
+        <h2>Videos</h2>
+        <p>Apenas com a tag &lt;video&gt;</p>
+        <p>Trailer original</p>
+        <section>
+            <video width="500px" src="midias/Bomba Patch Abertura Original.mp4" controls poster="midias/bomba.png"></video>
+        </section>
+        <p>
+            Assim como no audio podemos adicionar tbem varios tipos de arquivos de video para navegadores com
+            compatibilidade diferentes
+        </p>
+        <section>
+            <video width="500px" controls poster="midias/bomba.png">
+                <source src="midias/Bomba Patch Abertura Original.mp4" type="video/mp4">
+                <source src="midias/Bomba Patch Abertura Original.ogv" type="video/ogv">
+            </video>
+        </section>
+    </main>
+</body>
+
+</html>
