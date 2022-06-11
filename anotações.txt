@@ -29,6 +29,8 @@ dafont.com, repositorio de fontes
 
 fonts externas
 
+
+
 crir a fonte com o @fonte-face{configs da font, font-family: nome da font vc escolher
  src url(local da fonte) 
 font-weight:
@@ -42,3 +44,10 @@ SELETORES PERSONALIZADO CSS
 id(#) class(.)
 pseudo-class mais usados -> :hover, :empty, :active, :checked , :focus  relacionamos ao estado do objeto relacionado 
 pseudo -elemento mais usados -> ::after, ::before , ::first-letter, first-line
+
+
+Border ----
+tipo de border solid, dashed, doted, double, grove.
+padding espaço interno
+margin espaço externo
+outline espaço entre a borda e o margin mas fica dentro do margin
